@@ -42,9 +42,9 @@ const StudentCard = ({ student,deleteStudent }) => {
       <CardContent>
         <Stack spacing={2}>
           <Typography variant="h5" component="div" color="#3cb371">
-            {student.name}
+            {student.Name}
           </Typography>
-          <Typography variant="body2">{student.comments}</Typography>
+          <Typography variant="body2">{student.Comments}</Typography>
           <Stack
             spacing={2}
             direction="row"
@@ -53,7 +53,7 @@ const StudentCard = ({ student,deleteStudent }) => {
           >
             <Rating
               name="read-only"
-              value={student.cgpa}
+              value={student.Cgpa}
               readOnly
               sx={{ color: "#3cb371" }}
             />
