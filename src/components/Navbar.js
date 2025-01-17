@@ -27,7 +27,7 @@ const Navbar = () => {
             height="30"
             alt="supabse"
           />
-          <StyledLink to='/'><Typography variant="h6">Rating Management System</Typography></StyledLink>
+          <StyledLink to='/'><Typography variant="h6">Student Management System</Typography></StyledLink>
         </Stack>
         <Stack direction="row" spacing={5}>
           <StyledLink to='/'><Typography variant="h6">Home</Typography></StyledLink>
